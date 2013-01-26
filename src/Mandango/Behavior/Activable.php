@@ -16,12 +16,21 @@ use Mandango\Mondator\Definition\Method;
 
 class Activable extends ClassExtension {
     
+    /**
+     * preInsert method name
+     * @var string 
+     */
     protected $preInsertMethodName;
     
+    /**
+     * setter method name
+     * @var string 
+     */
     protected $fieldSetter;
     
     /**
      * {@inheritdoc}
+     * Also loads preInsertMethodName and fieldSetter name
      */
     protected function setUp()
     {
