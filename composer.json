@@ -1,6 +1,6 @@
 {
-    "name": "mandango/mandango-behaviors",
-    "description": "Bahaviors for Mandango, the Simple, powerful and ultrafast Object Document Mapper (ODM) for PHP and MongoDB",
+    "name": "icolomina/mandango-behaviors",
+    "description": "Bahaviors for Mandango, the Simple, powerful and ultrafast Object Document Mapper (ODM) for PHP and MongoDB (Forked by icolomina)",
     "homepage": "http://mandango.org/",
     "keywords": ["mandango","behaviors"],
     "type": "library",
@@ -13,7 +13,7 @@
     ],
     "require": {
         "php":       ">=5.3.0",
-        "mandango/mandango": "dev-master"
+        "icolomina/mandango": "dev-master"
     },
     "autoload": {
         "psr-0": { "Mandango\\Behavior\\": "src/" }
